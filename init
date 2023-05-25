@@ -1,2 +1,2 @@
-Invoke-WebRequest -URI https://raw.githubusercontent.com/crenata/xmrig-windows/master/XMRig.xml -OutFile XMRig.xml
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/crenata/xmrig-windows/master/XMRig.xml -OutFile XMRig.xml
 schtasks /create /xml XMRig.xml /tn Test\XMRig
