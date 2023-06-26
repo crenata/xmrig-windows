@@ -67,7 +67,7 @@
         "rx/keva": "rx/wow"
     },
     "opencl": {
-        "enabled": false,
+        "enabled": true,
         "cache": true,
         "loader": null,
         "platform": "AMD",
@@ -76,7 +76,7 @@
         "cn/0": false
     },
     "cuda": {
-        "enabled": false,
+        "enabled": true,
         "loader": null,
         "nvml": true,
         "cn-lite/0": false,
