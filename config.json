@@ -11,77 +11,12 @@
         "restricted": true
     },
     "autosave": true,
-    "background": false,
+    "background": true,
     "colors": true,
     "title": true,
-    "randomx": {
-        "init": -1,
-        "init-avx2": -1,
-        "mode": "auto",
-        "1gb-pages": false,
-        "rdmsr": true,
-        "wrmsr": true,
-        "cache_qos": false,
-        "numa": true,
-        "scratchpad_prefetch_mode": 1
-    },
-    "cpu": {
-        "enabled": true,
-        "huge-pages": true,
-        "huge-pages-jit": false,
-        "hw-aes": null,
-        "priority": null,
-        "memory-pool": false,
-        "yield": true,
-        "asm": true,
-        "argon2-impl": null,
-        "argon2": [0, 1],
-        "cn": [
-            [1, 0],
-            [1, 1]
-        ],
-        "cn-heavy": [
-            [1, 0],
-            [1, 1]
-        ],
-        "cn-lite": [
-            [1, 0],
-            [1, 1]
-        ],
-        "cn-pico": [
-            [2, 0],
-            [2, 1]
-        ],
-        "cn/upx2": [
-            [2, 0],
-            [2, 1]
-        ],
-        "ghostrider": [
-            [8, 0]
-        ],
-        "rx": [0],
-        "rx/wow": [0, 1],
-        "cn-lite/0": false,
-        "cn/0": false,
-        "rx/arq": "rx/wow",
-        "rx/keva": "rx/wow"
-    },
-    "opencl": {
-        "enabled": true,
-        "cache": true,
-        "loader": null,
-        "platform": "AMD",
-        "adl": true,
-        "cn-lite/0": false,
-        "cn/0": false
-    },
-    "cuda": {
-        "enabled": true,
-        "loader": null,
-        "nvml": true,
-        "cn-lite/0": false,
-        "cn/0": false
-    },
+    "cpu": true,
+    "opencl": true,
+    "cuda": true,
     "log-file": null,
     "donate-level": 0,
     "donate-over-proxy": 0,
